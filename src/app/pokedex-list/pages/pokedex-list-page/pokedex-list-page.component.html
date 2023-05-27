@@ -24,7 +24,7 @@
     *ngFor="let pokemon of pokemons"
   >
     <img [src]="pokemon.sprites.front_default" class="card-img-top" alt="...">
-    <div class="card-body">
+    <div class="card-body text-white">
       <p class="card-text text-center">{{ pokemon.id | number:'2.0' }}</p>
       <h5 class="card-title text-center">{{ pokemon.name | titlecase }}</h5>
     </div>

@@ -36,7 +36,6 @@ export class PokedexListPageComponent implements OnInit {
               });
 
               this.pokemons = searcher.search(search);
-              console.log(this.pokemons)
             }
 
             this._cdr.detectChanges();
