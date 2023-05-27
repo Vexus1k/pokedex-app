@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { BaseLayoutComponent } from './layout/base-layout/base-layout.component';
+import { FormsModule } from "@angular/forms";
 
 
 
@@ -11,9 +12,10 @@ import { BaseLayoutComponent } from './layout/base-layout/base-layout.component'
     exports: [
         BaseLayoutComponent
     ],
-  imports: [
-    CommonModule,
-    NgOptimizedImage
-  ]
+    imports: [
+        CommonModule,
+        NgOptimizedImage,
+        FormsModule
+    ]
 })
 export class MainModule { }
