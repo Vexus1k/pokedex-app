@@ -12,7 +12,7 @@ import FuzzySearch from 'fuzzy-search';
 export class PokedexListPageComponent implements OnInit {
   public pokemons = [];
 
-  constructor(
+  public constructor(
     private readonly _pokedexService: PokedexService,
     private readonly _cdr: ChangeDetectorRef
   ) {}
