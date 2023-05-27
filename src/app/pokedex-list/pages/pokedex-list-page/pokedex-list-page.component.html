@@ -1,0 +1,32 @@
+<div class="card-group justify-content-center d-flex gap-4 opacity-animation pb-4 pt-4">
+  <div
+    class="card d-flex justify-content-center align-items-center
+      {{ pokemon.types[0].type.name === 'grass' ? 'bg-grass' : '' }}
+      {{ pokemon.types[0].type.name === 'electric' ? 'bg-electric' : '' }}
+      {{ pokemon.types[0].type.name === 'fire' ? 'bg-fire' : '' }}
+      {{ pokemon.types[0].type.name === 'water' ? 'bg-water' : '' }}
+      {{ pokemon.types[0].type.name === 'bug' ? 'bg-bug' : '' }}
+      {{ pokemon.types[0].type.name === 'poison' ? 'bg-poison' : '' }}
+      {{ pokemon.types[0].type.name === 'psychic' ? 'bg-psychic' : '' }}
+      {{ pokemon.types[0].type.name === 'fighting' ? 'bg-fighting' : '' }}
+      {{ pokemon.types[0].type.name === 'ghost' ? 'bg-ghost' : '' }}
+      {{ pokemon.types[0].type.name === 'steel' ? 'bg-steel' : '' }}
+      {{ pokemon.types[0].type.name === 'ice' ? 'bg-ice' : '' }}
+      {{ pokemon.types[0].type.name === 'normal' ? 'bg-normal' : '' }}
+      {{ pokemon.types[0].type.name === 'dragon' ? 'bg-dragon' : '' }}
+      {{ pokemon.types[0].type.name === 'dark' ? 'bg-dark' : '' }}
+      {{ pokemon.types[0].type.name === 'fairy' ? 'bg-fairy' : '' }}
+      {{ pokemon.types[0].type.name === '???' ? 'bg-question-marks' : '' }}
+      {{ pokemon.types[0].type.name === 'ground' ? 'bg-ground' : '' }}
+      {{ pokemon.types[0].type.name === 'rock' ? 'bg-rock' : '' }}
+      {{ pokemon.types[0].type.name === 'flying' ? 'bg-flying' : '' }}
+    "
+    *ngFor="let pokemon of pokemons"
+  >
+    <img [src]="pokemon.sprites.front_default" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text text-center">{{ pokemon.id | number:'2.0' }}</p>
+      <h5 class="card-title text-center">{{ pokemon.name | titlecase }}</h5>
+    </div>
+  </div>
+</div>

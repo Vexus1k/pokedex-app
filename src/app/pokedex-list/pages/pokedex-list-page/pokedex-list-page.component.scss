@@ -1,0 +1,93 @@
+.card {
+  max-width: 370px !important;
+  flex: unset !important;
+}
+
+.card-group {
+  flex-flow: row wrap !important;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.bg-grass {
+  background: rgb(120 200 79);
+}
+
+.bg-electric {
+  background: rgb(249 207 48);
+}
+
+.bg-fire {
+  background: rgb(240 128 48);
+}
+
+.bg-bug {
+  background: rgb(168 183 32);
+}
+
+.bg-ghost {
+  background: rgb(112 88 152);
+}
+
+.bg-poison {
+  background: rgb(159 64 160);
+}
+
+.bg-psychic {
+  background: rgb(248 88 136);
+}
+
+.bg-water {
+  background: rgb(103 144 240);
+}
+
+.bg-fighting {
+  background: rgb(192 48 40);
+}
+
+.bg-steel {
+  background: rgb(184 184 208);
+}
+
+.bg-ice {
+  background: rgb(152 216 216);
+}
+
+.bg-normal {
+  background: rgb(168 168 120);
+}
+
+.bg-dragon {
+  background: rgb(112 56 248);
+}
+
+.bg-dark {
+  background: rgb(112 88 72);
+}
+
+.bg-fairy {
+  background: rgb(238 153 172);
+}
+
+.bg-question-marks {
+  background: rgb(105 160 144);
+}
+
+.bg-ground {
+  background: rgb(224 192 104);
+}
+
+.bg-rock {
+  background: rgb(184 160 57);
+}
+
+.bg-flying {
+  background: rgb(168 144 240);
+}
+
+p {
+  font-size: 18px;
+}
